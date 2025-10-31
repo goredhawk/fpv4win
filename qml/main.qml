@@ -52,7 +52,7 @@ ApplicationWindow {
                     font.pixelSize: 12
                     width:60
                     horizontalAlignment: Text.Center
-                    color: "#ffff00"
+                    color: "#ffffF0"
                     Component.onCompleted: {
                         player.onBitrate.connect((btr)=>{
                             if(btr>1000*1000){
